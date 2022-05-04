@@ -1,4 +1,4 @@
-/*START PLUGIN jParallax*/
+
 (function($) {
 	$.fn.extend({
 		jParallax: function(opt) {
@@ -19,13 +19,3 @@
 		}					
 	});
 }(jQuery));
-/*END PLUGIN jParallax*/
-
-/*Invoke*/
-$('.bg1').jParallax({ moveFactor: 5, targetContainer: '.parallax' });
-
-$('.bg2').jParallax({ moveFactor: 10, targetContainer: '.parallax' });
-
-$('.bg3').jParallax({ moveFactor: 15, targetContainer: '.parallax' });
-
-$('.bg4').jParallax({ moveFactor: 20, targetContainer: '.parallax' });
